@@ -4,5 +4,5 @@
 int main (void)
 {
     setlocale(LC_ALL, "Portuguese");
-    printf("Olá Mundo! <3");
+    printf("Olá Mundo do GitHub! <3");
 }
