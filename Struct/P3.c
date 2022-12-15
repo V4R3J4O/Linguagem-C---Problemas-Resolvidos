@@ -24,7 +24,8 @@ int main (void)
         fgets(aluno[i].curso,50,stdin);
         printf("Digite o numero da matrícula do aluno: ");
         scanf("%ld",&aluno[i].matricula);
-        scanf("%c");
+        fflush(stdin); // Limpa o buffer do teclado sem gerar problemas de
+                      // alteracao no valor da varialvel anterior
         printf("\n\n");
     }
 
